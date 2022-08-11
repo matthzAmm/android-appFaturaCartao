@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiant_main"
+    tools:context=".ui.activities.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logo"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:text="@string/digite_os_dados_abaixo"
+        android:textColor="@color/whiteStrt"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/emailfieldl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/logo"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="125dp"
+        android:background="@drawable/gradiant_white"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:hint="@string/email"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/userfieldl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/emailfieldl"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gradiant_white"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:hint="@string/usuario"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/passfieldl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/userfieldl"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gradiant_white"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:hint="@string/senha"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/registerBtnn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginBottom="106dp"
+        android:background="@drawable/green_border"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/registrar"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/statusRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="75dp"
+        android:gravity="center"
+        android:textColor="@color/lightgreen"
+        android:textSize="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiant_main"
+    tools:context=".ui.activities.ForgetPassActivity">
+
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logo"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="@string/esqueci_a_senha"
+        android:textColor="@color/lightgreen"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:text="@string/digite_o_email_da_conta"
+        android:textColor="@color/whiteStrt"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/emailfieldd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/title"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/gradiant_white"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:hint="@string/email"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/loginBtnn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginBottom="112dp"
+        android:background="@drawable/green_border"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/enviar"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/statusRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lightgreen"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="75dp"/>
+
+</RelativeLayout>

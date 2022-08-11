@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">trabalho0706</string>
+    <string name="criar_conta"><b>criar conta</b></string>
+    <string name="esqueceu_a_senha"><b>esqueceu a senha?</b></string>
+    <string name="login">Login</string>
+    <string name="usuario">usuário</string>
+    <string name="senha">senha</string>
+    <string name="email">email</string>
+    <string name="digite_os_dados_abaixo">Digite os dados abaixo:</string>
+    <string name="registrar">Registrar</string>
+    <string name="enviar">Enviar</string>
+    <string name="enviado_com_sucesso_n_acesse_seu_email">Enviado com sucesso! \n Acesse seu email</string>
+    <string name="conta_registrada_com_sucesso">Conta registrada com sucesso!</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="loja">Loja: </string>
+    <string name="valor">Valor: </string>
+    <string name="horario">Horario: </string>
+    <string name="data">Data: </string>
+    <string name="esqueci_a_senha">Esqueci a senha</string>
+    <string name="digite_o_email_da_conta">Digite o Email da conta:</string>
+    <string name="fatura_total">Fatura total:</string>
+    <string name="adicionar_cart_o">adicionar cartão</string>
+    <string name="n_mero">Número:</string>
+    <string name="nome_com_est_no_cart_o">Nome(com está no cartão):</string>
+    <string name="vencimento">Vencimento:</string>
+    <string name="m_s">Mês:</string>
+    <string name="ano">Ano:</string>
+    <string name="c_digo_de_seguran_a">Código de segurança:</string>
+    <string name="concluir">concluir</string>
+</resources>
